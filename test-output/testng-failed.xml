@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="20" guice-stage="DEVELOPMENT" name="Failed suite [Smoke_Suite]" parallel="methods">
+  <test thread-count="20" name="HeaderTest(failed)" parallel="methods">
+    <classes>
+      <class name="Test.AllTestRunner">
+        <methods>
+          <include name="rampUp"/>
+          <include name="rampDown"/>
+          <include name="sunTrustHome"/>
+        </methods>
+      </class> <!-- Test.AllTestRunner -->
+    </classes>
+  </test> <!-- HeaderTest(failed) -->
+</suite> <!-- Failed suite [Smoke_Suite] -->

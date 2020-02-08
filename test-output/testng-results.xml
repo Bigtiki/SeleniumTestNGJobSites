@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke_Suite" duration-ms="60988" started-at="2020-02-08T12:54:31 EST" finished-at="2020-02-08T12:55:32 EST">
+    <groups>
+    </groups>
+    <test name="HeaderTest" duration-ms="60988" started-at="2020-02-08T12:54:31 EST" finished-at="2020-02-08T12:55:32 EST">
+      <class name="Test.AllTestRunner">
+        <test-method status="PASS" signature="rampUp()[pri:0, instance:Test.AllTestRunner@5b87ed94]" name="rampUp" is-config="true" duration-ms="6658" started-at="2020-02-08T12:54:31 EST" finished-at="2020-02-08T12:54:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampUp -->
+        <test-method status="PASS" signature="llBeansInc()[pri:0, instance:Test.AllTestRunner@5b87ed94]" name="llBeansInc" duration-ms="22934" started-at="2020-02-08T12:54:38 EST" finished-at="2020-02-08T12:55:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- llBeansInc -->
+        <test-method status="PASS" signature="sunTrustHome()[pri:0, instance:Test.AllTestRunner@5b87ed94]" name="sunTrustHome" duration-ms="27249" started-at="2020-02-08T12:55:01 EST" finished-at="2020-02-08T12:55:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sunTrustHome -->
+        <test-method status="PASS" signature="rampDown()[pri:0, instance:Test.AllTestRunner@5b87ed94]" name="rampDown" is-config="true" duration-ms="4099" started-at="2020-02-08T12:55:28 EST" finished-at="2020-02-08T12:55:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rampDown -->
+      </class> <!-- Test.AllTestRunner -->
+    </test> <!-- HeaderTest -->
+  </suite> <!-- Smoke_Suite -->
+</testng-results>
