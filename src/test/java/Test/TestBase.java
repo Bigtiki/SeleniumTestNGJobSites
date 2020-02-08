@@ -57,7 +57,7 @@ public class TestBase {
 	                    System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver");
 	                    driver = new ChromeDriver();
 	                    }else if(SharedConfig.config.get("browser").trim().toLowerCase().equals("firefox")){
-	                        System.setProperty("webdriver.firefox.driver",System.getProperty("user.dir")+"//Drivers//geckodriver");
+	                        System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"//Drivers//geckodriver");
 	                        driver = new FirefoxDriver();
 	                    }
 	                }else if(os.contains("windows")) {
@@ -65,7 +65,7 @@ public class TestBase {
 	                        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 	                        driver = new ChromeDriver();
 	                    }else if(SharedConfig.config.get("browser").trim().toLowerCase().equals("firefox")){
-	                        System.setProperty("webdriver.firefox.driver",System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
+	                        System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
 	                        driver = new FirefoxDriver();
 	                    }
 	                }

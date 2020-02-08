@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke_Suite" duration-ms="60988" started-at="2020-02-08T12:54:31 EST" finished-at="2020-02-08T12:55:32 EST">
+  <suite name="Smoke_Suite" duration-ms="56567" started-at="2020-02-08T14:57:51 EST" finished-at="2020-02-08T14:58:48 EST">
     <groups>
     </groups>
-    <test name="HeaderTest" duration-ms="60988" started-at="2020-02-08T12:54:31 EST" finished-at="2020-02-08T12:55:32 EST">
+    <test name="HeaderTest" duration-ms="56567" started-at="2020-02-08T14:57:51 EST" finished-at="2020-02-08T14:58:48 EST">
       <class name="Test.AllTestRunner">
-        <test-method status="PASS" signature="rampUp()[pri:0, instance:Test.AllTestRunner@5b87ed94]" name="rampUp" is-config="true" duration-ms="6658" started-at="2020-02-08T12:54:31 EST" finished-at="2020-02-08T12:54:38 EST">
+        <test-method status="PASS" signature="rampUp()[pri:0, instance:Test.AllTestRunner@627551fb]" name="rampUp" is-config="true" duration-ms="4393" started-at="2020-02-08T14:57:51 EST" finished-at="2020-02-08T14:57:55 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rampUp -->
-        <test-method status="PASS" signature="llBeansInc()[pri:0, instance:Test.AllTestRunner@5b87ed94]" name="llBeansInc" duration-ms="22934" started-at="2020-02-08T12:54:38 EST" finished-at="2020-02-08T12:55:01 EST">
+        <test-method status="PASS" signature="llBeansInc()[pri:0, instance:Test.AllTestRunner@627551fb]" name="llBeansInc" duration-ms="21344" started-at="2020-02-08T14:57:55 EST" finished-at="2020-02-08T14:58:17 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- llBeansInc -->
-        <test-method status="PASS" signature="sunTrustHome()[pri:0, instance:Test.AllTestRunner@5b87ed94]" name="sunTrustHome" duration-ms="27249" started-at="2020-02-08T12:55:01 EST" finished-at="2020-02-08T12:55:28 EST">
+        <test-method status="PASS" signature="sunTrustHome()[pri:0, instance:Test.AllTestRunner@627551fb]" name="sunTrustHome" duration-ms="29998" started-at="2020-02-08T14:58:17 EST" finished-at="2020-02-08T14:58:47 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sunTrustHome -->
-        <test-method status="PASS" signature="rampDown()[pri:0, instance:Test.AllTestRunner@5b87ed94]" name="rampDown" is-config="true" duration-ms="4099" started-at="2020-02-08T12:55:28 EST" finished-at="2020-02-08T12:55:32 EST">
+        <test-method status="PASS" signature="rampDown()[pri:0, instance:Test.AllTestRunner@627551fb]" name="rampDown" is-config="true" duration-ms="780" started-at="2020-02-08T14:58:47 EST" finished-at="2020-02-08T14:58:48 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rampDown -->

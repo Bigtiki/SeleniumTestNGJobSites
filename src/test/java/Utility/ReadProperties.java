@@ -16,7 +16,7 @@ public class ReadProperties {
 	}
 	public static Map<String,String> readProperties() throws FileNotFoundException, IOException {
 		Properties propReader= new Properties();
-		propReader.load(readFile(System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties"));
+		propReader.load(readFile(System.getProperty("user.dir")+"//src//test//resources//config.properties"));
 		
 		Map <String, String>properties = new HashMap<String, String>();
 		
