@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke_Suite" duration-ms="56567" started-at="2020-02-08T14:57:51 EST" finished-at="2020-02-08T14:58:48 EST">
+  <suite name="Default suite" duration-ms="14067" started-at="2020-02-09T02:15:19 EST" finished-at="2020-02-09T02:15:33 EST">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucmberRunner.CucumberTest@2a17b7b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="HeaderTest" duration-ms="56567" started-at="2020-02-08T14:57:51 EST" finished-at="2020-02-08T14:58:48 EST">
-      <class name="Test.AllTestRunner">
-        <test-method status="PASS" signature="rampUp()[pri:0, instance:Test.AllTestRunner@627551fb]" name="rampUp" is-config="true" duration-ms="4393" started-at="2020-02-08T14:57:51 EST" finished-at="2020-02-08T14:57:55 EST">
+    <test name="Default test" duration-ms="14067" started-at="2020-02-09T02:15:19 EST" finished-at="2020-02-09T02:15:33 EST">
+      <class name="cucmberRunner.CucumberTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucmberRunner.CucumberTest@2a17b7b6]" name="setUpClass" is-config="true" duration-ms="228" started-at="2020-02-09T02:15:19 EST" finished-at="2020-02-09T02:15:19 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- rampUp -->
-        <test-method status="PASS" signature="llBeansInc()[pri:0, instance:Test.AllTestRunner@627551fb]" name="llBeansInc" duration-ms="21344" started-at="2020-02-08T14:57:55 EST" finished-at="2020-02-08T14:58:17 EST">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucmberRunner.CucumberTest@2a17b7b6]" name="runScenario" duration-ms="13500" started-at="2020-02-09T02:15:20 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-09T02:15:33 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User is on profile page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Change Password and Login"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- llBeansInc -->
-        <test-method status="PASS" signature="sunTrustHome()[pri:0, instance:Test.AllTestRunner@627551fb]" name="sunTrustHome" duration-ms="29998" started-at="2020-02-08T14:58:17 EST" finished-at="2020-02-08T14:58:47 EST">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucmberRunner.CucumberTest@2a17b7b6]" name="tearDownClass" is-config="true" duration-ms="112" started-at="2020-02-09T02:15:33 EST" finished-at="2020-02-09T02:15:33 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sunTrustHome -->
-        <test-method status="PASS" signature="rampDown()[pri:0, instance:Test.AllTestRunner@627551fb]" name="rampDown" is-config="true" duration-ms="780" started-at="2020-02-08T14:58:47 EST" finished-at="2020-02-08T14:58:48 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rampDown -->
-      </class> <!-- Test.AllTestRunner -->
-    </test> <!-- HeaderTest -->
-  </suite> <!-- Smoke_Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucmberRunner.CucumberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

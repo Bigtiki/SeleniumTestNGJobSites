@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import Utility.SharedConfig;
 
 public class MasterPage {
-	static Map<String,String> getConfig= SharedConfig.config;
+	public static Map<String,String> getConfig= SharedConfig.config;
 	WebDriver driver;
 	public MasterPage(WebDriver driver) {
 		this.driver=driver;
@@ -112,6 +112,16 @@ public class MasterPage {
         }
         return texts;
     }
+    public void typeOnElement(String locatores, String valueTotype) {
+		if(locatores.contains("ID")) {
+			driver.findElement(By.id(locatores.split(":")[1])).sendKeys(valueTotype);
+		}  else if(locatores.contains("Xpath")) {
+			driver.findElement(By.xpath(locatores.split(":")[1])).sendKeys(valueTotype);
+		} else if(locatores.contains("Name")) {
+			driver.findElement(By.name(locatores.split(":")[1])).sendKeys(valueTotype);
+		}
+
+	}
 
     //Keys
     public void clearInputBox(String locator){

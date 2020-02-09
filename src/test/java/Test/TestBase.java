@@ -12,6 +12,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import Pages.Guru99Bank;
 import Pages.LLBeans;
 import Pages.SunTrustHome;
 import Utility.SharedConfig;
@@ -20,7 +21,7 @@ public class TestBase {
 	 static WebDriver driver;
 	 public SunTrustHome stHome;
 	 public LLBeans llHome;
-
+	 public Guru99Bank gbHome;
 	    public static WebDriver getDriver() {
 
 	        if (driver == null){
@@ -100,4 +101,12 @@ public class TestBase {
 	    	return llHome;
 	    	
 	    }
+	    public Guru99Bank getGBHomePage() {
+	    	if(gbHome ==null) {
+	    		gbHome= new Guru99Bank(driver);
+	    	}
+	    	return gbHome;
+	    	
+	    }
+	    
 }
