@@ -15,6 +15,7 @@ import org.testng.annotations.BeforeTest;
 import Pages.Guru99Bank;
 import Pages.LLBeans;
 import Pages.SunTrustHome;
+import Pages.Testpage;
 import Utility.SharedConfig;
 
 public class TestBase {
@@ -22,6 +23,7 @@ public class TestBase {
 	 public SunTrustHome stHome;
 	 public LLBeans llHome;
 	 public Guru99Bank gbHome;
+	 public Testpage Home;
 	    public static WebDriver getDriver() {
 
 	        if (driver == null){
@@ -99,6 +101,13 @@ public class TestBase {
 	    		llHome= new LLBeans(driver);
 	    	}
 	    	return llHome;
+	    	
+	    }
+	    public Testpage getTestPage() {
+	    	if(Home ==null) {
+	    		Home= new Testpage(driver);
+	    	}
+	    	return Home;
 	    	
 	    }
 	    public Guru99Bank getGBHomePage() {

@@ -10,8 +10,10 @@
 		<classes>
 			<class name="Test.AllTestRunner">
 				<methods>
-					<include name="llBeansInc"></include>
-					<include name="sunTrustHome"></include>
+<!-- 					<include name="llBeansInc"></include> -->
+<!-- 					<include name="sunTrustHome"></include> -->
+					<include name="Home"></include>
+					
 				</methods>
 			</class>
 		</classes>

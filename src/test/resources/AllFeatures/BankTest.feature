@@ -1,6 +1,5 @@
-Feature: Change Password and Login
-As a User I can Change the password
-and Login using new password
+Feature: Log in
+User can login with valid credentials and see their profile.
 
 
 Scenario: User is on profile page

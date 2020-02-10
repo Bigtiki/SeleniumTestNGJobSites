@@ -13,6 +13,8 @@ public class LLBeans extends MasterPage {
 	}
 	public void getList() {
 		for(int i=1;i<9;i++) {
+			
+	//List XPATH		//Xpath,,, but the i changes to other Xpaths.
 			 String headerMenus="//div[@class='Header_header-nav-widening']//nav/ul/li["+i+"]";
 			 
 			System.out.println("\n**tab name: "+ getElementText("Xpath:"+headerMenus));

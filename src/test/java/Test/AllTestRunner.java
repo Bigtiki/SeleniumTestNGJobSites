@@ -17,5 +17,10 @@ public class AllTestRunner extends TestBase {
 		getLLHomePage().goToPage();
 		getLLHomePage().getList();
 	}
+	@Test
+	public void Home() {
+		getTestPage().getPage();
+	}
+
 	
 }

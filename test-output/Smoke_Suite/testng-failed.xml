@@ -10,8 +10,7 @@
         <methods>
           <include name="rampUp"/>
           <include name="rampDown"/>
-          <include name="llBeansInc"/>
-          <include name="sunTrustHome"/>
+          <include name="Home"/>
         </methods>
       </class> <!-- Test.AllTestRunner -->
     </classes>

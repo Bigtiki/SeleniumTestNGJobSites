@@ -9,6 +9,7 @@ import java.util.Map;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -122,6 +123,17 @@ public class MasterPage {
 		}
 
 	}
+    public void typeOnElement2(String locatores, Keys valueTotype) {
+		if(locatores.contains("ID")) {
+			driver.findElement(By.id(locatores.split(":")[1])).sendKeys(valueTotype);
+		}  else if(locatores.contains("Xpath")) {
+			driver.findElement(By.xpath(locatores.split(":")[1])).sendKeys(valueTotype);
+		} else if(locatores.contains("Name")) {
+			driver.findElement(By.name(locatores.split(":")[1])).sendKeys(valueTotype);
+		}
+
+	}
+
 
     //Keys
     public void clearInputBox(String locator){
